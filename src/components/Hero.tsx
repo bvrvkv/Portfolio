@@ -9,7 +9,9 @@ export const Hero = () => {
 
   return (
     <section className="min-h-screen flex items-center justify-center relative bg-gradient-to-br from-slate-950 via-blue-950 to-slate-900">
-      <div className="absolute inset-0 bg-[url('data:image/svg+xml,<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><g fill="%23ffffff" fill-opacity="0.05"><circle cx="30" cy="30" r="1"/></g></svg>')] opacity-50"></div>
+      <div className="absolute inset-0 opacity-50">
+        <div className="w-full h-full bg-[radial-gradient(circle_at_25%_25%,rgba(255,255,255,0.05)_1px,transparent_1px)] bg-[length:60px_60px]"></div>
+      </div>
       
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="flex justify-center space-x-6 mb-8 animate-pulse">
